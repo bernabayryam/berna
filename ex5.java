@@ -141,16 +141,14 @@ public class ex5<arraySize, isArraySimetric> {
                     System.out.printf("Reversing : %d\n ", mainArray[i]);
                 }
 
-                boolean willYouUseProgram = false;
+                boolean StopProgram = false;
 
-                System.out.println("Do you want to close program?");
-                System.out.println("Yes/No");
-
+                System.out.println("Are you stopping the program?");
+                
                 String answer = scanner.nextLine();
 
-                if (answer.equalsIgnoreCase("Yes")) {
-                    willYouUseProgram = false;
-
+                if (answer.equals("Yes")) {
+                    stopProgram = true;
 
                 }
             }
